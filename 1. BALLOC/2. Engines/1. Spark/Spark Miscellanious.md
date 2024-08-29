@@ -1,0 +1,48 @@
+---
+
+---
+--- 
+
+Spark only reads the first rows to infer the schema of a table. This leads to problems if the data is not consistent.
+
+---
+
+You can read explain plans from top to bottom, the top being the end result, and the bottom being the source(s) of data.
+
+![[Pasted image 20240807164722.png]]
+
+---
+
+When we don't need to know the exact COUNT of a dataset, we can use approx_count_distinct.
+
+---
+
+Pivots make it possible for you to convert a row into a column.
+
+---
+
+```
+# When the files are too small:
+df_response = spark.sql("""
+    SELECT
+        ...
+    FROM
+        ...
+""")
+
+# Calculate the number of rows for volume [128-254]
+df_response.coalesce(1).write.option("maxRecordsPerFile", *calculate_number_of_rows_for_volume(128, 254)*).saveAsTable('TABLE_BLA_BLA_BLA', mode="overwrite")
+
+#######################################################
+
+# When the files are too big (might not be needed to use coalesce):
+df_response = spark.sql("""
+    SELECT
+        ...
+    FROM
+	    ...
+""")
+
+# Calculate the number of rows for volume [128-254]
+df_response.write.option("maxRecordsPerFile", *calculate_number_of_rows_for_volume(128, 254)*).saveAsTable('TABLE_BLA_BLA_BLA', mode="overwrite")
+```

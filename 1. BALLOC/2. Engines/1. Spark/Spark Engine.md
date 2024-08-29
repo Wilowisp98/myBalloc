@@ -1,0 +1,113 @@
+# Apache Spark: Concepts and Architecture
+
+## Introduction
+
+Apache Spark is a powerful, open-source distributed computing system designed for big data processing and analytics. This document covers key concepts and architectural elements of Spark.
+
+## Core Concepts
+
+### Data Locality
+
+> "Data is expensive to move so Spark focuses on performing computations over the data, no matter where it resides."
+
+This principle allows Spark to achieve data locality, performing operations over the data without moving it to a central place, which is crucial for efficient big data processing.
+
+### Spark vs. Hadoop
+
+- **Apache Hadoop** combines a filesystem (HDFS) and a computing engine (MapReduce).
+- **Spark** is more flexible and can run with various storage systems, including HDFS.
+
+### Cluster Computing
+
+A single computer often lacks the power for large-scale data processing. Spark leverages cluster computing, coordinating work among a group of computers to utilize their combined resources effectively.
+
+## Spark Architecture
+
+### Cluster Manager
+
+The cluster of machines that Spark uses is managed by a *cluster manager*. Spark applications are submitted to this manager for execution.
+
+### Spark Application
+
+A Spark Application consists of two main components:
+
+1. **Driver Process**
+   - Runs the `main()` function
+   - Maintains application information
+   - Responds to user input
+   - Analyzes, distributes, and schedules work across executors
+
+   > The Driver Process is the heart of Spark!
+
+2. **Executors**
+   - Run code assigned by the driver
+   - Report results back to the driver
+
+![[Pasted image 20240807161159.png]]
+
+### Partitions
+
+To enable parallel processing, Spark breaks data into chunks called "partitions".
+
+- A *partition* is a collection of rows from a DataFrame that physically resides on a machine in the cluster.
+- The number of partitions affects parallelism:
+  - 1 partition → parallelism of one
+  - Multiple partitions but 1 executor → still parallelism of one
+
+## Data Processing Concepts
+
+### Transformations
+
+Transformations in Spark are operations that create a new DataFrame from an existing one. There are two types:
+
+1. **Narrow Transformations**
+   - Each input partition contributes to only one output partition
+   - Examples: `select()`, `filter()`, `map()`
+   - Executed in memory (no shuffling required)
+
+![[Pasted image 20240807162454.png]]
+
+2. **Wide Transformations**
+   - Input partitions may contribute to multiple output partitions
+   - Requires shuffling data across the cluster
+   - Examples: `groupBy()`, `join()`, `repartition()`
+   - Results are written to disk due to data exchange
+
+   ![[Pasted image 20240807162841.png]]
+
+### Lazy Evaluation
+
+Spark uses lazy evaluation, meaning it delays the execution of transformations until an action is called. This allows Spark to optimize the execution plan.
+
+### Logical Plan
+
+The logical plan represents abstract transformations without referencing executors or drivers. It optimizes the user's set of expressions. This plan is unresolved because although your code might be valid, the tables or columns that it refers to might or might not exist. (Example: Pushdowns)
+
+![[Pasted image 20240807170806.png]]
+### Physical Plan
+
+The physical plan specifies how the logical plan will execute on the cluster, generating and comparing different physical execution strategies through a cost model.
+
+![[Pasted image 20240807170636.png]]
+
+## Join Strategies
+
+### Shuffle Join
+
+In a shuffle join, every node communicates with every other node to share data based on keys.
+
+### Broadcast Join
+
+In a broadcast join:
+- The smaller DataFrame is replicated to every worker node
+- Join operation is executed locally on each node
+- Becomes a narrow transformation
+- CPU becomes the primary bottleneck
+
+---
+
+## Additional Resources
+
+- [Databricks Documentation: Diagnose cost and performance issues using the Spark UI](https://docs.databricks.com/en/optimizations/spark-ui-guide/index.html)
+- [Apache Spark Official Documentation](https://spark.apache.org/docs/latest/)
+- [Learning Spark, 2nd Edition (O'Reilly)](https://www.oreilly.com/library/view/learning-spark-2nd/9781492050032/)

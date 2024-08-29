@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "bc8a1f5d8328e3d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "f681fd2212b19c3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4739ca7d447163fc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9bb973e1985f6456",
+    "type": "split",
+    "children": [
+      {
+        "id": "69d28af64d4b0e3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2eaa5b51fb8bb12",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "61e241dea364a6fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6c52ae11c74bf693",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "19a84af6f6d891a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "090b97679584319c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b7ad49e0be47e8f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "fdb4f8f3f03c0526",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5e97177da605b59f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8cb8b92c5b619d95",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 305.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4739ca7d447163fc",
+  "lastOpenFiles": [
+    "README.md",
+    "1. BALLOC/3. Concepts/1. Delta.md",
+    "__ compendium __.md",
+    "1. BALLOC/X001. Good Practices.md",
+    "1. BALLOC/2. Engines/1. Spark/Spark Miscellanious.md",
+    "1. BALLOC/2. Engines/1. Spark/Spark Engine.md",
+    "1. BALLOC/2. Engines/1. Spark/Spark.md",
+    "X. OLDER_VERSIONS/SPARK.md",
+    "3. Utils/1. Images/2. Redact/Pasted image 20240805113524.png",
+    "3. Utils/1. Images/2. Redact/Pasted image 20240806164817.png",
+    "3. Utils/1. Images/2. Redact/Pasted image 20240806165604.png",
+    "3. Utils/1. Images/2. Redact/Pasted image 20240805113628.png",
+    "3. Utils/1. Images/2. Redact/Pasted image 20240801151923.png",
+    "3. Utils/1. Images/2. Redact/Pasted image 20240801152910.png",
+    "3. Utils/1. Images/2. Redact/Pasted image 20240801151847.png",
+    "3. Utils/1. Images/2. Redact/Pasted image 20240730125436.png",
+    "3. Utils/1. Images/2. Redact/Pasted image 20240730123638.png",
+    "3. Utils/1. Images/2. Redact/Pasted image 20240729152011.png",
+    "3. Utils/1. Images/2. Redact",
+    "3. Utils/1. Images/1. Public",
+    "1. BALLOC/1. Languages/1. SQL & PySpark/2. Operations & Transformations.md",
+    "1. BALLOC/1. Languages/1. SQL & PySpark/3. Miscellaneous.md",
+    "1. BALLOC/1. Languages/1. SQL & PySpark/1. Manage.md",
+    "1. BALLOC/1. Languages/2. Command Language.md",
+    "2. Courses/1. Organized/Data Engineering with Databricks.md",
+    "1. BALLOC/3. Concepts/Untitled",
+    "1. BALLOC/3. Concepts",
+    "2. Courses/2. Raw/Data Engineering with Databricks.md",
+    "1. BALLOC/X002. Other.md",
+    "BALLOC",
+    "New Text Document.txt",
+    "__ main __.md",
+    "README.txt",
+    "0. DAILY/2024_08_13.md",
+    "0. DAILY/2024_08_12.md",
+    "0. DAILY/2024_08_08.md",
+    "0. DAILY/2024_08_06.md",
+    "0. DAILY/2024_08_01.md",
+    "0. DAILY/2024_07_30.md",
+    "0. DAILY/2024_07_29.md",
+    "0. DAILY/2024_08_07.md",
+    "0. DAILY/2024_08_02.md",
+    "1. BALLOC/X002. Other",
+    "X. OLDER_VERSIONS",
+    "3. Utils/1. Images/Redact",
+    "Learning Topics/DATATYPES.md"
+  ]
+}
