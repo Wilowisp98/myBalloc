@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RAW.md",
+                "file": "0. Daily/2024_08_13.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RAW.md",
+                "file": "0. Daily/2024_08_13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RAW.md",
+                "file": "0. Daily/2024_08_13.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RAW.md"
+                "file": "0. Daily/2024_08_13.md"
               }
             }
           }
@@ -148,29 +148,36 @@
   },
   "active": "3883be727864d173",
   "lastOpenFiles": [
-    "__ compendium __.md",
-    "RAW.md",
-    "README.md",
-    "1. BALLOC/1.2. Engines/1.2.1. Spark/1.2.1.2. Spark Miscellanious.md",
     "1. BALLOC/1.2. Engines/1.2.2. Apache Hadoop/1.2.2.1. What's Hadoop.md",
     "1. BALLOC/1.2. Engines/1.2.2. Apache Hadoop/1.2.2.2. Map Reduce.md",
-    "1. BALLOC/1.3. Concepts/1.3.1. Delta.md",
-    "1. BALLOC/1.4. Good Practices.md",
     "1. BALLOC/1.1. Languages/1.1.1. SQL & PySpark/1.1.1.3. Miscellaneous.md",
-    "1. BALLOC/1.1. Languages/1.1.1. SQL & PySpark/1.1.1.1. Manage.md",
-    "2. Courses/2.1. Organized/2.1.1. Data Engineering with Databricks.md",
-    "1. BALLOC/1.5. Other.md",
     "1. BALLOC/1.1. Languages/1.1.1. SQL & PySpark/1.1.1.2. Operations & Transformations.md",
+    "1. BALLOC/1.1. Languages/1.1.1. SQL & PySpark/1.1.1.1. Manage.md",
     "1. BALLOC/1.1. Languages/1.1.2. Command Language.md",
-    "1. BALLOC/1.2. Engines/1.2.1. Spark/1.2.1.1. Spark Engine.md",
-    "1. BALLOC/1.2. Engines/1.2.2. Apache Hadoop/1.2.2.3. HDFS.md",
+    "2. Courses/2.1. Organized/2.1.1. Data Engineering with Databricks.md",
+    "3. Utils/3.1. Images/3.1.1. Public/Pasted image 20240807161159.png",
+    "RAW.md",
+    "README.md",
     "TO STUDY.md",
+    "0. Daily/2024_07_29.md",
+    "0. Daily/2024_07_30.md",
+    "0. Daily/2024_08_02.md",
+    "0. Daily/2024_08_01.md",
+    "0. Daily/2024_08_06.md",
+    "0. Daily/2024_08_07.md",
+    "0. Daily/2024_08_08.md",
+    "0. Daily/2024_08_12.md",
+    "0. Daily/2024_08_13.md",
+    "2. Courses/2.2. Raw/2.2.1. Data Engineering with Databricks.md",
+    "X. OLDER_VERSIONS/SPARK.md",
+    "__ compendium __.md",
+    "1. BALLOC/1.2. Engines/1.2.1. Spark/1.2.1.2. Spark Miscellanious.md",
+    "1. BALLOC/1.2. Engines/1.2.2. Apache Hadoop/1.2.2.3. HDFS.md",
+    "1. BALLOC/1.2. Engines/1.2.1. Spark/1.2.1.1. Spark Engine.md",
+    "1. BALLOC/1.3. Concepts/1.3.1. Delta.md",
     "3. Utils/3.1. Images/3.1.1. Public/Pasted image 20240830114959.png",
     "3. Utils/3.1. Images/3.1.1. Public/Pasted image 20240830111236.png",
     "1. BALLOC/1.2. Engines/1.2.2. Apache Hadoop",
-    "2. Courses/2.2. Raw/2.2.1. Data Engineering with Databricks.md",
-    "1. BALLOC/2. Engines/1. Spark/Spark.md",
-    "X. OLDER_VERSIONS/SPARK.md",
     "3. Utils/3.1. Images/3.1.2. Redact/Pasted image 20240805113524.png",
     "3. Utils/3.1. Images/3.1.2. Redact/Pasted image 20240806164817.png",
     "3. Utils/3.1. Images/3.1.2. Redact/Pasted image 20240806165604.png",
@@ -178,20 +185,13 @@
     "3. Utils/3.1. Images/3.1.2. Redact/Pasted image 20240801151923.png",
     "3. Utils/3.1. Images/3.1.2. Redact/Pasted image 20240801152910.png",
     "3. Utils/3.1. Images/3.1.2. Redact/Pasted image 20240801151847.png",
-    "3. Utils/3.1. Images/3.1.2. Redact/Pasted image 20240730125436.png",
     "3. Utils/3.1. Images/3.1.2. Redact",
     "3. Utils/3.1. Images/3.1.1. Public",
     "1. BALLOC/3. Concepts/Untitled",
     "1. BALLOC/1.3. Concepts",
     "BALLOC",
     "New Text Document.txt",
-    "__ main __.md",
     "README.txt",
-    "0. Daily/2024_08_13.md",
-    "0. Daily/2024_08_12.md",
-    "0. Daily/2024_08_08.md",
-    "0. Daily/2024_08_06.md",
-    "0. Daily/2024_08_01.md",
     "1. BALLOC/X002. Other",
     "X. OLDER_VERSIONS"
   ]
